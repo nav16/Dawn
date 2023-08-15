@@ -23,12 +23,3 @@
 .cover-description {
     font-size: 1.7rem;
 }
-
-.cover-cta {
-    display: flex;
-    margin-top: 2rem;
-}
-
-.cover-cta .button {
-    margin: 0 0.5rem;
-}
