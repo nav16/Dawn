@@ -24,6 +24,11 @@
         <div class="author-bio">{{bio}}</div>
 
         <div class="share author-social">
+            <a class="share-link share-link-github author-social-item" href="https://www.github.com/nav16" target="_blank"
+                rel="noopener noreferrer">
+                {{> "icons/github"}}
+                Github
+            </a>
             {{#if facebook}}
                 <a class="share-link share-link-facebook author-social-item" href="https://www.facebook.com/{{facebook}}" target="_blank" rel="noopener noreferrer">
                     {{> "icons/facebook"}}
