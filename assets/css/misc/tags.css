@@ -1,0 +1,39 @@
+.tags {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.tags>a {
+  display: block;
+  margin: 0 10px 10px 0;
+  color: var(--brand-color);
+  border-radius: 4px;
+  overflow: hidden;
+  text-decoration: none;
+}
+
+.tags span.tag-feature-image {
+  height: 100px;
+  background-size: cover;
+  background-position: center;
+}
+
+.tag-title {
+  padding: 10px;
+  background: #474242;
+  font-size: 15px;
+  font-weight: 700;
+}
+
+.tags span.tag-title {
+  padding: 10px;
+  font-size: 20px;
+  font-weight: 700;
+  text-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5);
+}
+
+.tag-title small {
+  font-size: 12px;
+  font-weight: normal;
+  color: var(--brand-color);
+}
